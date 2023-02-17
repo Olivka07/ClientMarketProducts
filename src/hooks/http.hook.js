@@ -13,7 +13,7 @@ export const useHttp = () => {
                 headers['Content-Type'] = 'application/json'
             }
 
-            const newUrl = "http://serverproductsmarket.up.railway.app"+url
+            const newUrl = "https://serverproductsmarket.up.railway.app"+url
 
             console.log(newUrl)
         
