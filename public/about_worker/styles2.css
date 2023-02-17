@@ -1,0 +1,71 @@
+@import url("https://use.typekit.net/cyt1iyu.css");
+
+body {
+    font-size: 16px;
+    font-family: roboto, sans-serif;
+    font-weight: normal;
+    background-color: rgb(236, 236, 236);
+}
+
+.container {
+    max-width: 900px;
+    margin: 50px auto;
+}
+
+table,
+th,
+td {
+    border: 1px solid rgb(37, 40, 15);
+}
+
+table {
+    border-spacing: 0; /* расстояние между границами */
+    width: 100%;
+}
+
+th,
+td {
+    padding: 10px;
+    border-top-width: 0;
+    border-left-width: 0;
+}
+
+tr:last-child td {
+    border-bottom-width: 0px;
+}
+
+.tbody tr:nth-child(37) td:last-child{
+    border-bottom-width: 0;
+}
+
+td:nth-child(2),
+th:last-child {
+    border-right-width: 0;
+}
+
+
+/* td:nth-child(1) - столбец 1, tr:nth-child(even) - чётные строчки tr:nth-child(odd) - нечётные строчки  */
+.tbody td:nth-child(1), .tbody td:nth-child(2) {
+    color: rgb(65, 13, 119);
+    font-weight: bold;
+    background-color: rgb(235, 248, 236);
+}
+
+.tbody th {
+    font-size: 18px;
+    font-weight:700;
+    background-color: blanchedalmond;
+    padding: 10px;
+}
+
+.thead th {
+    font-size: 20px;
+    font-weight: 700;
+    background-color: rgb(205, 239, 244);
+}
+
+.tbody .thbody {
+    background-color: rgb(234, 207, 214);
+    padding: 10px;
+}
+
